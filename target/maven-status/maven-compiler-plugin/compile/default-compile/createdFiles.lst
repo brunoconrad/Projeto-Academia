@@ -1,0 +1,9 @@
+br\com\academia\config\SpringInitConfig.class
+br\com\academia\resource\rest\ProdutoRestController.class
+br\com\academia\service\ProdutoService.class
+br\com\academia\dao\ProdutoDaoImpl.class
+br\com\academia\config\SpringJpaConfig.class
+br\com\academia\config\SpringRootConfig.class
+br\com\academia\dao\ProdutoDao.class
+br\com\academia\service\ProdutoServiceImpl.class
+br\com\academia\domain\Produto.class
