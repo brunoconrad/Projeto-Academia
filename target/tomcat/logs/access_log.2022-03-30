@@ -1,0 +1,10 @@
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:07:07 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-2 201
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:34:07 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-2 180
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:40:47 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-2 193
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:02 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-2 172
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:15 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-4 12
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:18 -0300] "POST /rest/produtos HTTP/1.1" 405 1047 http-bio-9090-exec-6 2
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:23 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-7 13
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:28 -0300] "GET /rest/produtos/ HTTP/1.1" 500 17527 http-bio-9090-exec-9 8
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:35 -0300] "GET /rest/produto HTTP/1.1" 404 949 http-bio-9090-exec-1 2
+0:0:0:0:0:0:0:1 - - [30/Mar/2022:20:57:38 -0300] "GET /rest/produtos HTTP/1.1" 500 17527 http-bio-9090-exec-1 9

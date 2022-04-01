@@ -5,8 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8245ff9-3eda-46e9-9371-f8f1e296455d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/academia/config/SpringJpaConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/academia/config/SpringJpaConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/academia/dao/ProdutoDaoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/academia/dao/ProdutoDaoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/academia/domain/Produto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/academia/domain/Produto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/config/SpringInitConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/config/SpringInitConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/config/SpringJpaConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/config/SpringJpaConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/config/SpringRootConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/config/SpringRootConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/dao/ProdutoDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/dao/ProdutoDao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/dao/ProdutoDaoImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/dao/ProdutoDaoImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/domain/Produto.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/domain/Produto.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/service/ProdutoService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/service/ProdutoService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/academia/service/ProdutoServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/academia/service/ProdutoServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,7 +57,11 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="last_opened_file_path" value="D:/Java/Java JDK 1.8.0" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,6 +73,9 @@
       <updated>1648512317021</updated>
     </task>
     <servers />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="java:org.hibernate:hibernate-core" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -110,5 +129,9 @@
         <entry key="8b471ade-6518-411c-8422-9f00937942ff" value="TOOL_WINDOW" />
       </map>
     </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
