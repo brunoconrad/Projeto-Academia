@@ -1,9 +1,11 @@
 package br.com.academia.dao;
 
 import br.com.academia.domain.Produto;
+import br.com.academia.exception.NaoExisteDaoException;
 import org.springframework.stereotype.Repository;
 
 import javax.persistence.EntityManager;
+import javax.persistence.EntityNotFoundException;
 import javax.persistence.PersistenceContext;
 import java.util.List;
 
@@ -29,15 +31,22 @@ public class ProdutoDaoImpl implements ProdutoDao{
 
     @Override
     public void delete(Long id) {
-
-        entityManager.remove(entityManager.getReference(Produto.class, id));
-
+        try {
+            entityManager.remove(entityManager.getReference(Produto.class, id));
+        } catch( EntityNotFoundException e ) {
+            throw new NaoExisteDaoException("Produto não encontrado");
+        }
     }
 
     @Override
     public Produto findById(Long id) {
 
-        return entityManager.find(Produto.class, id);
+        Produto produto = entityManager.find(Produto.class, id);
+
+        if(produto == null){
+            throw new NaoExisteDaoException("Produto não encontrado");
+        }
+        return produto;
 
     }
 
