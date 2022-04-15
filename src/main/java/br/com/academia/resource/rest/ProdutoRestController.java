@@ -12,12 +12,9 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import java.net.URI;
 import java.util.List;
 
+@CrossOrigin(origins = "*")
 @RestController
-@RequestMapping(
-        value = "/produtos",
-        produces = MediaType.APPLICATION_JSON_UTF8_VALUE,
-        consumes = MediaType.APPLICATION_JSON_UTF8_VALUE
-)
+@RequestMapping( value = "/produtos" )
 public class ProdutoRestController {
 
     @Autowired
